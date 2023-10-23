@@ -605,6 +605,7 @@ a {
 .footer .social {
     margin-top: 40px;
     display: flex;
+    gap: 0 16px;
 }
 
 .footer .social-link {
@@ -613,15 +614,12 @@ a {
     align-items: center;
     width: 28px;
     height: 28px;
+    background-color: #f9f9f9;
 }
 
 .footer .social-link:hover {
     background-color: #ebebeb;
     border-radius: 3px;
-}
-
-.footer .fa-brands {
-    /* font-size: 2rem; */
 }
 
 .footer .row-bottom {
